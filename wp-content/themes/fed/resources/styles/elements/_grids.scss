@@ -1,0 +1,16 @@
+.container {
+  padding-inline: 2.4rem;
+  @include media-breakpoint-up(lg) {
+    padding-inline: 3.2rem;
+  }
+  @include media-breakpoint-up(sm) {
+    padding-inline: 3.6rem;
+  }
+  .row {
+    margin-inline: -1.2rem;
+    > .col,
+    > [class*='col-'] {
+      padding-inline: 1.2rem;
+    }
+  }
+}

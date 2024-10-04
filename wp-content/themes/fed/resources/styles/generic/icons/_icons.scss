@@ -1,0 +1,124 @@
+@import 'variables/variables';
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?6v390e') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-right-arrow {
+  &::before {
+    content: $icon-right-arrow;
+  }
+}
+.icon-plus {
+  &::before {
+    content: $icon-plus;
+  }
+}
+.icon-youtube {
+  &::before {
+    content: $icon-youtube;
+  }
+}
+.icon-x-twitter {
+  &::before {
+    content: $icon-x-twitter;
+  }
+}
+.icon-linkedin {
+  &::before {
+    content: $icon-linkedin;
+  }
+}
+.icon-mail {
+  &::before {
+    content: $icon-mail;
+  }
+}
+.icon-close {
+  &::before {
+    content: $icon-close;
+  }
+}
+.icon-dashboard .path1 {
+  &::before {
+    content: $icon-dashboard-path1;
+    color: rgb(104, 194, 222);
+  }
+}
+.icon-dashboard .path2 {
+  &::before {
+    content: $icon-dashboard-path2;
+    margin-left: -1em;
+    color: rgb(56, 151, 181);
+  }
+}
+.icon-down {
+  &::before {
+    content: $icon-down;
+  }
+}
+.icon-down-l {
+  &::before {
+    content: $icon-down-l;
+  }
+}
+.icon-left {
+  &::before {
+    content: $icon-left;
+  }
+}
+.icon-left-l {
+  &::before {
+    content: $icon-left-l;
+  }
+}
+.icon-menu-open {
+  &::before {
+    content: $icon-menu-open;
+  }
+}
+.icon-right {
+  &::before {
+    content: $icon-right;
+  }
+}
+.icon-right-l {
+  &::before {
+    content: $icon-right-l;
+  }
+}
+.icon-up {
+  &::before {
+    content: $icon-up;
+  }
+}
+.icon-up-l {
+  &::before {
+    content: $icon-up-l;
+  }
+}
+.icon-bars {
+  &::before {
+    content: $icon-bars;
+    color: #fff;
+  }
+}

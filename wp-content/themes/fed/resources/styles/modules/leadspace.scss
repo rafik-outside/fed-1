@@ -1,0 +1,9 @@
+@import '../custom';
+
+.#{$module-prefix}-leadspace {
+  min-height: 100vh;
+  border: 1px solid $black;
+  &::after {
+    background: linear-gradient(180deg, rgba(1, 42, 34, 0) -9.09%, #012a22 100%);
+  }
+}
